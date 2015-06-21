@@ -6,12 +6,12 @@
 ##Author: E. J. Carr
 June, 2015
 
-##**DESCRIPTION:**	This project will take raw data on wearable electronics that record and sense different physical activities that a subject/person is doing.  Specifically, this data is from a Samsung Smartphones that sense the subject movements.  There were thirty subjects involved in this study and there were six different activities that the subject can perform:
+##DESCRIPTION:	This project will take raw data on wearable electronics that record and sense different physical activities that a subject/person is doing.  Specifically, this data is from a Samsung Smartphones that sense the subject movements.  There were thirty subjects involved in this study and there were six different activities that the subject can perform:
 
 *	Walking
 *	Walking Upstairs
 *	Walking Downstairs
-*Standing
+*	Standing
 *	Sitting
 *	Laying
 
@@ -68,13 +68,13 @@ With the train directory we will assume the following files will exist:
 	
 *	Assumes that is being invoked with the working directory and the necessary  input files being available
 *	Changes directory to the train directory and reads in the files: 
--	X_train.txt (dimension: 7352 x 561)
--	y_train.txt
--	subject_train.txt
+	-	X_train.txt (dimension: 7352 x 561)
+	-	y_train.txt
+	-	subject_train.txt
 *	Changes directory to the test directory and reads in the files:
--	X_test.txt (dimension: 2947 x 561)
--	y_test.txt
--	subject_test.txt
+	-	X_test.txt (dimension: 2947 x 561)
+	-	y_test.txt
+	-	subject_test.txt
 *	Changes to the working directory and reads in the file: features.txt
 *	Modifies the variable names from the features.txt file and eliminates special characters that are not valid variable names in R.  Specifically, the “()” is removed completely and not replaced.  In addition, any “(“, “)”, or “,” characters are replaced with a “.”.  Finally, the dash character is replaced with an underscore.
 *	The modified feature names are now used as the column variable names for the test and training data measurements
