@@ -12,8 +12,8 @@ The format of the codebook will be as follows:
 * The fourth field on the line will be the possible values or range of values that it could hold.  This is optional
 * The fifth field is the description of the variable
 
- 1. "subject"                	integer		1-30		Identifies the person/subject that did the  test
- 2. "activity"                  string				List of six possible activities includes:
+1. "subject"                integer		1-30		Identifies the person/subject that did the  test
+2. "activity"                  string				List of six possible activities includes:
 													WALKING
 													WALKING_DOWNSTAIRS
 													WALKING_UPSTAIRS
